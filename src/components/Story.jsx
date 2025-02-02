@@ -75,7 +75,7 @@ const Story = () => {
                 <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
                     <div className="flex h-full w-fit flex-col items-center md:items-start">
                         <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">Where realms converges, lies Zentry and the boundries pillar . Discover it secrets and shape your fate amidst infinite oppourtunities.</p>
-                    <Button id="realm-button" title="discover prologue " containerClass="mt-5" />
+                    <Button id="realm-button" title="discover prologue " containerClass="mt-5 hover:!bg-black hover:text-white transition-all duration-500" />
                     </div>
                 </div>
             </div>

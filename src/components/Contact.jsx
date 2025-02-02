@@ -28,7 +28,7 @@ const Contact = () => {
           <p className="font-general text-[10px] uppercase">Join Zentry</p>
           <p className="special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem] md:z-50 ">Let&apos;s b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether</p>
 
-          <Button title="contact-us" containerClass="mt-10 cursor-pointer" />
+          <Button title="contact-us" containerClass="mt-10 cursor-pointer hover:!bg-black hover:text-white transition-all duration-500" />
         </div>
 
       </div>

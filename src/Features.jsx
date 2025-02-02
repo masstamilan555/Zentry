@@ -70,7 +70,7 @@ const Features = () => {
                 <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflowh-hidden rounded-md max-h-[65vh]">
                     <BentoCard
                         src="videos/feature-1.mp4"
-                        title={<>radie<b>n</b>t</>}
+                        title={<>radia<b>n</b>t</>}
                         description="A cross-platform metagame app, turning your activities across Web3 and Web3 games into a rewarding adventure."
 
                     />

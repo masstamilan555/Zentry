@@ -61,7 +61,7 @@ const Navbar = () => {
                             id="product-button"
                             title="Products"
                             rightIcon={<TiLocationArrow />}
-                            containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+                            containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1 hover:!bg-black hover:text-white transition-all duration-500 hover:border border-white"
                         />
                     </div>
                     <div className="flex h-full items-center ">
@@ -73,7 +73,7 @@ const Navbar = () => {
                         <button className="ml-10 flex items-center space-x-0.5 " onClick={toggleAudioIndicator}>
                             <audio src="/audio/loop.mp3" ref={audioElementRef} className="hidden" loop />
                             {[1,2,3,4].map((bar)=>(
-                                <div key={bar} className={`indicator-line bg-green-600 ${isIndicatorActive?'active':''}`} style={{animationDelay:`${bar *0.1}s`}}></div>
+                                <div key={bar} className={`indicator-line ${isIndicatorActive?'active':''}`} style={{animationDelay:`${bar *0.1}s`}}></div>
                             ))}
                         </button>
                     </div>
